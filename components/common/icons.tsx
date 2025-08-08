@@ -32,17 +32,15 @@ import {
   X,
   Zap,
 } from "lucide-react";
-import { AiFillStar } from "react-icons/ai";
 import { BiLaugh, BiSolidUser } from "react-icons/bi";
-import { BsInfoCircle, BsQuestionCircle } from "react-icons/bs";
+import { BsInfoCircle, BsQuestionCircle, BsFillStarFill } from "react-icons/bs";
 import {
   HiBriefcase,
   HiOutlineExternalLink,
   HiOutlineLink,
 } from "react-icons/hi";
-import { IoIosGitBranch } from "react-icons/io";
+import { IoIosGitBranch, IoLogoSass } from "react-icons/io";
 import {
-  SiAmazonaws,
   SiAngular,
   SiBootstrap,
   SiCss3,
@@ -63,13 +61,35 @@ import {
   SiRedux,
   SiSocketdotio,
   SiTailwindcss,
-  SiTwitter,
   SiTypescript,
+  SiShadcnui,
+  SiPrimereact,
+  SiFigma,
+  SiTestinglibrary,
+  SiJest,
+  SiDocker,
+  SiAntdesign
 } from "react-icons/si";
+
+import { FaGit } from "react-icons/fa6";
+
+import { TbBrandFramerMotion, TbBrandStorybook } from "react-icons/tb";
+
+import { GiBearFace } from "react-icons/gi";
 
 export const Icons = {
   contact: Phone,
+  zustand: GiBearFace,
+  docker: SiDocker,
+  git: FaGit,
+  shadcn: SiShadcnui,
+  jest: SiJest,
+  figma: SiFigma,
+  testing: SiTestinglibrary,
+  storybook: TbBrandStorybook,
+  prime: SiPrimereact,
   gitRepoIcon: BookMarked,
+  framer: TbBrandFramerMotion,
   gitOrgBuilding: Building,
   gitBranch: IoIosGitBranch,
   close: X,
@@ -100,8 +120,7 @@ export const Icons = {
   questionMark: BsQuestionCircle,
   link: HiOutlineLink,
   externalLink: HiOutlineExternalLink,
-  star: AiFillStar,
-  amazonaws: SiAmazonaws,
+  star: BsFillStarFill,
   angular: SiAngular,
   bootstrap: SiBootstrap,
   css3: SiCss3,
@@ -122,10 +141,11 @@ export const Icons = {
   tailwindcss: SiTailwindcss,
   typescript: SiTypescript,
   gmail: SiGmail,
-  twitter: SiTwitter,
   linkedin: SiLinkedin,
   userFill: BiSolidUser,
   work: HiBriefcase,
+  sass: IoLogoSass,
+  antd: SiAntdesign,
   gitHub: ({ ...props }: LucideProps) => (
     <svg
       aria-hidden="true"

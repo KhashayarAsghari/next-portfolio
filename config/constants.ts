@@ -52,7 +52,18 @@ export type ValidSkills =
   | "PyTorch"
   | "Spring Boot"
   | "Laravel"
-  | "PHP";
+  | "PHP"
+  | "OpenLayers"
+  | "Leaflet"
+  | "Highcharts"
+  | "Apex charts"
+  | "Chart.js"
+  | "Shadcn"
+  | "prime react"
+  | "react testing library"
+  | "jest"
+  | "Framer motion"
+  ;
 
 export type ValidCategory =
   | "Full Stack"

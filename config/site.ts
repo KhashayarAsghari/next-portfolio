@@ -1,13 +1,12 @@
 export const siteConfig = {
   name: "Khashayar Asghari | Developer Portfolio",
   authorName: "Khashayar Asghari",
-  username: "namanbarkiya",
+  username: "khashayarasghari",
   description:
     "Khashayar Asghari's portfolio - A modern, responsive Next.js portfolio for developers. This open-source template can be customized to showcase your own skills, projects, and professional experience.",
   url: "https://nbarkiya.xyz",
   links: {
-    twitter: "https://x.com/namanbarkiya",
-    github: "https://github.com/namanbarkiya",
+    github: "https://github.com/khashayarAsghari",
   },
   ogImage: "https://nbarkiya.xyz/naman-img.jpg",
   iconIco:
