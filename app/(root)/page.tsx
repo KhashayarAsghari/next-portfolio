@@ -195,7 +195,9 @@ export default function IndexPage() {
           </Link>
         </AnimatedText>
       </AnimatedSection>
-      <AnimatedSection
+
+
+      {/* <AnimatedSection
         direction="right"
         className="container space-y-6 py-10 my-14"
         id="experience"
@@ -237,9 +239,9 @@ export default function IndexPage() {
                     <p className="leading-normal text-muted-foreground sm:text-lg sm:leading-7">
                         See all the relevant experiences.
                     </p>
-                </div> */}
+                </div> 
       </AnimatedSection>
-      {/* <AnimatedSection
+      <AnimatedSection
         direction="down"
         className="container space-y-6 bg-muted py-10 my-14"
         id="contributions"
@@ -270,6 +272,8 @@ export default function IndexPage() {
           </Link>
         </AnimatedText>
       </AnimatedSection> */}
+
+
     </ClientPageWrapper>
   );
 }
